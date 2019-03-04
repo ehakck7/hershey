@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&subset=korean');
+body, input{font-family: 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 18px; color: #333;}
+@font-face {
+    font-family:'Milton-Bold';
+    src:url('../font/Milton_Bold.eot');
+    src:url('../font/Milton-Bold.woff') format('woff'),
+		url('../font/Milton-Bold.ttf') format('truetype');
+}
+/* header font */
+h1{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 54px;}
+.gnbul li .depth1{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 32px; color:#fff;}
+.subul li .depth2{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 27px; color:#fff;}
+/* container font */
+.mainbg .title{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 220px; color:#391000;}
+.conttitle h3{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 70px; color:#391000;}
+.slideul li p{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 60px; color:#fff;}
+.recipeul li p span{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 40px;}
+.videotxt span{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 120px; color:#fff;}
+
+/* reset */
+body, header, footer, section, nav, article, a, div, h1, h2, h3, ul, li, p, form, fieldset, legend, label, input, span, img, strong, video, address{margin: 0; padding: 0; box-sizing: border-box;}
+header, footer, article, section, nav{display: block;}
+html, body{overflow-x: hidden; width: 100%;}
+ul{list-style: none;}
+img, fieldset{border: none;}
+h1, h2, h3, strong{font-weight: normal;}
+address{font-style: normal;}
+input, img{vertical-align: middle;}
+a:link, a:visited{text-decoration: none; color: #333;}
+a:hover, a:active, a:focus{text-decoration: underline; color: #333;} 
+.skip ,legend{overflow: hidden; visibility: hidden; position: absolute; left: -9999px; width: 1px; height: 1px; font-size: 0; line-height: 0;}
+
+/* skip navigation */
+#skipnavi{position: absolute; width: 100%; z-index: 9999;}
+#skipnavi a{position: absolute; top: -100px;}
+#skipnavi a:hover,
+#skipnavi a:active,
+#skipnavi a:focus{display: block; top: 0; width: 100%; padding: 10px 0; text-align: center; font-size: 16px; color: #fff; background: #feb62e;}
+
+/* clearfix */
+.clearfix:after{content: ''; display: block; clear: both;}
