@@ -1,12 +1,12 @@
 @charset "utf-8";
-#footerwrap{width: 100%; height: 320px; background: #feb62e;}
+.footer-wrap{width: 100%; height: 320px; background: #feb62e;}
 .footer{width: 1600px; height: 320px; margin: 0 auto; text-align: center;}
-.footerul{padding: 40px 0;}
-.footerul li{display: inline-block;}
-.footerul li:after{content: '/'; padding: 0 25px;}
-.footerul li:last-child:after{content: '';}
-.footerul li:last-child{margin-right: 0;}
-.footerul li a{font-weight: 700; color: #391000;}
+.footer-list{padding: 40px 0;}
+.footer-list li{display: inline-block;}
+.footer-list li:after{content: '/'; padding: 0 25px;}
+.footer-list li:last-child:after{content: '';}
+.footer-list li:last-child{margin-right: 0;}
+.footer-list li a{font-weight: 700; color: #391000;}
 
 .footer_txt{font-size: 14px; color: #391000;}
 .footer_txt .copy{font-size: 12px; margin-top: 10px;}

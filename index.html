@@ -11,22 +11,24 @@
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/main_190111.css" type="text/css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="js/main_190124.js"></script>
 	<script src="js/layout.js"></script>
 </head>
 
 <body>
 	<!-- skipnavi -s -->
-	<nav id="skipnavi">
+	<nav class="skipnavi">
 		<a href="#gnb">주메뉴 바로가기</a>
 		<a href="#container">메인메뉴 바로가기</a>
 	</nav>
 	<!-- skipnavi -e -->
+
 	<!-- wrapper -s -->
-	<div id="wrapper">
+	<div class="wrap">
 		<!-- w100% -->
 		<!-- header -s -->
-		<header id="headerwrap">
+		<header id="header-wrap">
 			<!-- w100% -->
 			<div class="header">
 				<!-- w100% -->
@@ -44,7 +46,7 @@
 				</div>
 				<nav id="gnb">
 					<!-- 100% -->
-					<ul class="gnbul clearfix">
+					<ul class="gnb-list clearfix">
 						<!-- w1284px -->
 						<li>
 							<a href="subpage1.html" class="depth1">WHAT'S NEW</a>
@@ -53,14 +55,14 @@
 								<div class="subbanner">
 									<!-- w296px -->
 									<a href="#" class="banner1">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>달콤한<br />허쉬 컬렉션</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 								</div>
-								<ul class="subul clearfix">
+								<ul class="sub-list clearfix">
 									<li>
 										<a href="#" class="depth2">SEASONAL LIMITED</a>
 									</li>
@@ -83,21 +85,21 @@
 								<div class="subbanner">
 									<!-- w296px -->
 									<a href="#" class="banner1">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>달콤한<br />허쉬 컬렉션</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 									<a href="#" class="banner2">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>‘단짠’맛의 조화<br />리세스</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 								</div>
-								<ul class="subul clearfix">
+								<ul class="sub-list clearfix">
 									<li>
 										<a href="#" class="depth2">COLLECTIONS</a>
 										<ul class="depth3">
@@ -130,21 +132,21 @@
 								<div class="subbanner">
 									<!-- w296px -->
 									<a href="#" class="banner1">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>달콤한<br />허쉬 컬렉션</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 									<a href="#" class="banner2">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>‘단짠’맛의 조화<br />리세스</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 								</div>
-								<ul class="subul clearfix">
+								<ul class="sub-list clearfix">
 									<li>
 										<a href="#" class="depth2">CHOCOLATE</a>
 										<ul class="depth3">
@@ -220,14 +222,14 @@
 								<div class="subbanner">
 									<!-- w296px -->
 									<a href="#" class="banner1">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>달콤한<br />허쉬 컬렉션</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 								</div>
-								<ul class="subul clearfix">
+								<ul class="sub-list clearfix">
 									<li>
 										<a href="#" class="depth2">PRESS&amp;MAGAZINE</a>
 									</li>
@@ -247,14 +249,14 @@
 								<div class="subbanner">
 									<!-- w296px -->
 									<a href="#" class="banner2">
-										<div class="subbannerbg"></div>
-										<div class="subbannertxt">
+										<div class="sub-banner-bg"></div>
+										<div class="sub-banner-txt">
 											<p>‘단짠’맛의 조화<br />리세스</p>
 											<p>자세히보기</p>
 										</div>
 									</a>
 								</div>
-								<ul class="subul clearfix">
+								<ul class="sub-list clearfix">
 									<li>
 										<a href="#" class="depth2">OUR STORY</a>
 										<ul class="depth3">
@@ -293,7 +295,7 @@
 		</header>
 		<!-- header -e -->
 		<!-- container -s -->
-		<div id="container">
+		<div id="container" class="container">
 			<!-- w100% -->
 			<!-- mainbg -s -->
 			<section class="mainbgwrap">
@@ -306,11 +308,11 @@
 			</section>
 			<!-- mainbg -e -->
 			<!-- history -s -->
-			<section class="historywrap">
+			<section class="history-wrap">
 				<!-- w100% -->
 				<div class="history">
 					<!-- w1600px -->
-					<div class="history_box">
+					<div class="history_box motion">
 						<h2><img src="images/history-logo.png" alt="since 1894 HERSHEY'S"></h2>
 						<p class="history_txt">
 							허쉬컴퍼니의 창립자 밀튼 허쉬(Milton Hershey)는<br />
@@ -328,19 +330,19 @@
 			</section>
 			<!-- history -e -->
 			<!-- product -s -->
-			<section class="productwrap">
+			<section class="product-wrap">
 				<!-- w1600px -->
-				<div class="conttitle">
+				<div class="cont-tit motion">
 					<h3>MAIN PRODUCT</h3>
 					<p>새로운 즐거움이 가득한 허쉬의 맛을 즐겨보세요!</p>
 				</div>
-				<div class="product clearfix">
+				<div class="product clearfix motion">
 					<!-- w1244px -->
 					<ul class="pro pro_left">
 						<li class="pro_item top">
 							<div class="box_wrap pro1">
 								<!-- w296px h260px -->
-								<div class="txtboxwrap">
+								<div class="txt-box-wrap">
 									<div class="txtbox">
 										<img src="images/product-visual1-title.png" alt="ice breakers 아이스브레이커스">
 										<p>
@@ -358,7 +360,7 @@
 						<li class="pro_item bot">
 							<div class="box_wrap pro2">
 								<!-- w296px h260px -->
-								<div class="txtboxwrap">
+								<div class="txt-box-wrap">
 									<div class="txtbox">
 										<img src="images/product-visual2-title.png" alt="ice breakers 아이스브레이커스">
 										<p>
@@ -392,7 +394,7 @@
 					<ul class="pro pro_right">
 						<li class="pro_item top">
 							<div class="box_wrap pro3">
-								<div class="txtboxwrap">
+								<div class="txt-box-wrap">
 									<div class="txtbox">
 										<img src="images/product-visual3-title.png" alt="hershey's kisses">
 										<p>
@@ -410,7 +412,7 @@
 						</li>
 						<li class="pro_item bot">
 							<div class="box_wrap pro4">
-								<div class="txtboxwrap">
+								<div class="txt-box-wrap">
 									<div class="txtbox">
 										<img src="images/product-visual4-title.png" alt="hershey's kisses">
 										<p>
@@ -433,16 +435,16 @@
 			<!-- arrival -s -->
 			<section class="arrival">
 				<!-- w100% -->
-				<div class="conttitle">
+				<div class="cont-tit motion">
 					<!-- w1600px -->
 					<h3>NEW ARRIVAL</h3>
 				</div>
-				<div class="slidewrap">
+				<div class="slide-wrap">
 					<!-- w100% -->
 					<div class="slide">
 						<!-- w1600px -->
-						<div class="slideinwrap">
-							<ul id="slideul" class="slideul clearfix">
+						<div class="slide-list-wrap">
+							<ul id="slide-list" class="slide-list clearfix motion">
 								<!-- w이미지 6장 -->
 								<li>
 									<p>KISSES CHERRY</p>
@@ -470,15 +472,13 @@
 								</li>
 							</ul>
 						</div>
-						<div class="slidebtn">
+						<div class="slide-btn">
 							<span class="prev"></span>
 							<span class="next"></span>
 						</div>
-						<span id="slidelist" class="slidelist">
-							<span class="on"></span>
-							<span></span>
-							<span></span>
-							<span></span>
+						<span id="slide-pager" class="slide-pager">
+							<a href="#" data-slide-index="0"></a>
+							<a href="#" data-slide-index="1"></a>
 						</span>
 					</div>
 				</div>
@@ -487,14 +487,14 @@
 			<!-- recipe -s -->
 			<section class="recipe">
 				<!-- w1600px -->
-				<div class="conttitle">
+				<div class="cont-tit motion">
 					<!-- w1600px -->
 					<h3>HERSHEY RECIPE</h3>
 				</div>
-				<div class="recipe_cont">
+				<div class="recipe_cont motion">
 					<!-- w1244px -->
 					<div class="cont_top">
-						<ul class="recipeul clearfix">
+						<ul class="recipe-list clearfix">
 							<li class="big">
 								<p>
 									초콜릿 디저트 와플<br />
@@ -519,7 +519,7 @@
 						</ul>
 					</div>
 					<div class="cont_bot">
-						<ul class="recipeul clearfix">
+						<ul class="recipe-list clearfix">
 							<li>
 								<p>
 									스위트하트 초콜릿 컵케이크<br />
@@ -553,7 +553,7 @@
 				<video autoplay loop muted>
 					<source src="images/hershey.mp4" type="video/mp4">
 				</video>
-				<div class="videotxt">
+				<div class="videotxt motion">
 					<span>HAPPINESS IS HERSHEY’S</span>
 				</div>
 			</section>
@@ -561,11 +561,11 @@
 			<!-- sns -s -->
 			<section class="sns">
 				<!-- w1600px -->
-				<div class="conttitle">
+				<div class="cont-tit motion">
 					<!-- w1600px -->
 					<h3>HERSHEY SNS</h3>
 				</div>
-				<ul class="snsul clearfix">
+				<ul class="sns-list clearfix motion">
 					<!-- w1284px -->
 					<li>
 						<!-- w336px -->
@@ -581,7 +581,7 @@
 							#올해는허쉬꺼
 						</p>
 						<span class="sns_icon">
-							<span id="heart1" class="heart" onclick="heart1()"></span>
+							<button type="button" class="heart"></button>
 							<span class="dm"></span>
 						</span>
 						<span class="sns_eff eff1"></span>
@@ -601,7 +601,7 @@
 							#단짠파워업
 						</p>
 						<span class="sns_icon">
-							<span id="heart2" class="heart" onclick="heart2()"></span>
+							<span class="heart"></span>
 							<span class="dm"></span>
 						</span>
 						<span class="sns_eff eff2"></span>
@@ -621,7 +621,7 @@
 							#단짠라이딩
 						</p>
 						<span class="sns_icon">
-							<span id="heart3" class="heart" onclick="heart3()"></span>
+							<span class="heart"></span>
 							<span class="dm"></span>
 						</span>
 						<span class="sns_eff eff3"></span>
@@ -629,19 +629,20 @@
 				</ul>
 			</section>
 			<!-- sns -e -->
-			<!-- topmenu -s -->
-			<nav class="topmenu">
+			<!-- top-menu -s -->
+			<nav class="top-menu">
 				<a href="#" class="topbtn"></a>
 			</nav>
-			<!-- topmenu -e -->
+			<!-- top-menu -e -->
 		</div>
 		<!-- container -e -->
+
 		<!-- footer -s -->
-		<footer id="footerwrap">
+		<footer id="footer-wrap" class="footer-wrap">
 			<!-- w100% -->
 			<div class="footer">
 				<!-- w1600px -->
-				<ul class="footerul">
+				<ul class="footer-list">
 					<li><a href="#">THE HERSHEY COMPANY</a></li>
 					<li><a href="#">CONTACT US</a></li>
 					<li><a href="#">THE HERSHEY CHOCOLATE WORLD ATTRACTION</a></li>
