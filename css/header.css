@@ -4,10 +4,10 @@
 .header{position: relative; width: 100%; height: 145px; background: #391000; z-index: 999;}
 .headertop{width: 1600px; height: 80px; margin: 0 auto; padding: 0 20px;}
 .headertop a{color: #fff;}
-.headertop .lmenu{float: left; display: inline-block; width: 138px; height: 80px; line-height: 80px;}
+.headertop .lmenu{float: left; width: 138px; height: 80px; line-height: 80px;}
 .headertop .lmenu a:first-child{margin-right: 17px;}
 
-.headertop h1{display: inline-block; float: left; width: 1284px; height: 80px; padding-top: 5px; text-align: center;} /* 폰트 특성상 위에 여백이 생겨 padding으로 조정 */
+.headertop h1{float: left; width: 1284px; height: 80px; padding-top: 5px; text-align: center;} /* 폰트 특성상 위에 여백이 생겨 padding으로 조정 */
 .headertop h1 a{text-decoration: none;}
 
 .headertop .rmenu{float: right; width: 138px; height: 80px; line-height: 80px;}
