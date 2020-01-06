@@ -22,7 +22,7 @@
 .gnb-list a{color: #fff;}
 .gnb-list > li{float: left;}
 .gnb-list li .depth1,
-.searchbtn{display: inline-block; position: relative; width: 138px; height: 65px; margin-right: 20px; line-height: 60px; text-align: center; text-decoration: none; transition: all 0.2s ease;} /* 폰트 특성상 line-height조절 */
+.searchbtn{display: inline-block; position: relative; width: 138px; height: 65px; margin-right: 20px; line-height: 60px; text-align: center; text-decoration: none; transition: all 0.2s ease; white-space: nowrap;} /* 폰트 특성상 line-height조절 */
 .gnb-list li:first-child .depth1{margin-left: 178px;}
 .searchbtn{margin-right: 178px;}
 

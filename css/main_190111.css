@@ -10,7 +10,7 @@
 .mainbg:before{content: ''; position: absolute; top: 0px; left: -100px; width: 1600px; height: 100vh; background: url(../images/main-bg-eff3.png) no-repeat 0 45%;}
 .mainbg:after{content: ''; position: absolute; top: -50px; left: 0px; width: 1600px; height: 100vh; background: url(../images/main-bg-eff1.png) no-repeat 0 45%;}
 
-.mainbg .title{position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);} /* 폰트 여백 때문에 수치 변경 */
+.mainbg .title{position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); text-align: center;} /* 폰트 여백 때문에 수치 변경 */
 .mainbg .arrow{position: absolute; bottom: 85px; left: 50%; transform: translate(-50%, 0); animation: arrow 0.7s linear infinite alternate;}
 
 /* history */
