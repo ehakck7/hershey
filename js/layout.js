@@ -6,15 +6,15 @@ $(document).ready(function(){
 	$('.depth1').mouseleave(function(){
 		$(this).next().stop().hide();
 	})
-	$('.submenu').mouseenter(function(){
+	$('.sub-menu').mouseenter(function(){
 		$(this).stop().show();
 	})
-	$('.submenu').mouseleave(function(){
+	$('.sub-menu').mouseleave(function(){
 		$(this).stop().hide();
 	})
 
 	// gnb search
-	$('.searchbtn').click(function(){
+	$('.btn-search').click(function(){
 		$(this).toggleClass('on')
 		if($(this).hasClass('on')==true){
 			$(this).next().stop().fadeIn()
@@ -22,6 +22,6 @@ $(document).ready(function(){
 		else{
 			$(this).next().stop().fadeOut()
 		}
-		$('.searchbox').val('')
+		$('.search-box').val('')
 	})
 })

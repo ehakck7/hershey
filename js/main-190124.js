@@ -21,7 +21,6 @@ $(document).ready(function(){
 
 	// 스크롤 액션
 	$(window).scroll(function(){
-		var boxoffset=$('.history_box').offset().top;
 		var scrollpos=$(window).scrollTop();
 		var sectionHeight = []
 
@@ -68,7 +67,7 @@ $(document).ready(function(){
 		})
 
 		// top menu
-		if(scrollpos > boxoffset){
+		if(scrollpos > sectionHeight[1]){
 			$('.topbtn').css('display', 'inline-block')
 		}
 		else{
@@ -83,7 +82,7 @@ $(document).ready(function(){
 	});
 
 	// sns -s
-	$('.sns-list li .sns_icon .heart').each(function(){
+	$('.sns-list li .sns-icon .heart').each(function(){
 		$(this).click(function(){
 			$(this).toggleClass('on')
 		})

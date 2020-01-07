@@ -5,7 +5,7 @@
 body, input{font-family: 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 18px; color: #333;}
 @font-face {
     font-family:'Milton-Bold';
-    src:url('../font/Milton_Bold.eot');
+    src:url('../font/Milton-Bold.eot');
     src:url('../font/Milton-Bold.woff') format('woff'),
 		url('../font/Milton-Bold.ttf') format('truetype');
 }
@@ -14,11 +14,10 @@ h1{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-
 .gnb-list li .depth1{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 32px; color:#fff;}
 .sub-list li .depth2{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 27px; color:#fff;}
 /* container font */
-.mainbg .title{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 220px; color:#391000;}
+.main-bg .title{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 220px; color:#391000;}
 .cont-tit h3{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 70px; color:#391000;}
 .slide-list li p{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 60px; color:#fff;}
 .recipe-list li p span{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 40px;}
-.videotxt span{font-family:'Milton-Bold', 'Noto Sans KR', '돋움', dotum, sans-serif; font-size: 120px; color:#fff;}
 
 /* reset */
 body, header, footer, section, nav, article, a, div, h1, h2, h3, ul, li, p, form, fieldset, legend, label, input, span, img, strong, video, address{margin: 0; padding: 0; box-sizing: border-box;}
